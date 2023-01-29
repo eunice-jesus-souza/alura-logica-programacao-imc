@@ -1,0 +1,61 @@
+<meta charset="UTF-8" />
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  function calculaImc(peso, altura) {
+    return peso / (altura * altura);
+    // var imc = peso / (altura * altura);
+    // return imc;
+  }
+
+  // var nome = prompt("Informe o seu nome")
+  // var alturaInformada = prompt("Informe a sua altura");
+  // var pesoInformado = prompt("Informe o seu peso")
+  // var imc = calculaImc(alturaInformada, pesoInformado)
+  document.write(nome + "o seu IMC calculado é " + imc);
+
+  // var imcMaria = calculaImc(73, 1.71);
+  // var imcAmigo = calculaImc(68, 172);
+  // var totalImc = imcMaria + imcAmigo
+  // var totalImc = calculaImc(73, 1.71) + calculaImc(68, 172)
+  // document.write("A soma dos IMC's é " + totalImc)
+
+  // mostra(imcMaria);
+  // mostra(imcAmigo)
+
+  //   var pesoMaria = 73;
+  //   var alturaMaria = 1.71;
+  //   calculaImc(pesoMaria, alturaMaria);
+
+  //   var imcMaria = pesoMaria / (alturaMaria * pesoMaria);
+  //   mostra("O imc da Maria é " + imcMaria);
+
+  //   var pesoAmigo = 68;
+  //   var alturaAmigo = 1.72;
+  //   calculaImc(pesoAmigo, alturaAmigo);
+
+  //   var imcAmigo = pesoAmigo / (alturaAmigo * alturaAmigo);
+  //   mostra("O imc do meu amigo é " + imcAmigo);
+
+  //~~~~~~~~~~~~~RETORNO DE FUNÇÂO~~~~~~~~~~~~~~~~~~~
+
+  // function calculaImc(peso1, altura1, peso2, altura2) {
+
+  //   var imc = imc1 = peso1 / (altura1 * altura1);
+  //   var imc = imc1 = peso2 / (altura2 * altura2);
+  //   var imcTotal = imc1 + imc2;
+  //   mostra("O soma dos imc's é " + imcTotal)
+  // }
+
+  // calculaImc(73, 1.71, 68, 1.72)
+  
+</script>
